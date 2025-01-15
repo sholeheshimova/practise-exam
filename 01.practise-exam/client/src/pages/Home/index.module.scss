@@ -1,0 +1,93 @@
+.sec1{
+    position: relative;
+    height:80vh;
+    .img{
+        position: absolute;
+        width: 400px;
+        height: 200px;
+        // border: 3px solid black;
+    }
+    .text{
+        position: absolute;
+        top: 300px;
+      right: 300px;
+  width: 400px;
+  height: 100px;
+
+  h3{
+    font-size: 40px;
+  }
+  p{
+    font-size: 20px;
+  }
+  button{
+    margin-top: 40px;
+    border: 1px solid purple;
+    width: 150px;
+    height: 40px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+  }
+    }
+}
+
+.sec3{
+    margin-top: 100px;
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        .card{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            h5{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.sec4{
+    margin-top: 100px;
+    .imgs{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        img{
+            width: 400px;
+        }
+    }
+}
+
+.sec2{
+    margin-top: 200px;
+}
+
+.sec5{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  img{
+    width: 500px;
+  }
+  h4{
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
+  }
+  button{
+    margin-top: 40px;
+    border: 1px solid purple;
+    width: 150px;
+    height: 40px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+  }
+}
