@@ -1,0 +1,31 @@
+footer{
+    
+    background-color: rgba(196, 196, 189, 0.603);
+    margin-top: 100px;
+    height: 140px;
+  .text{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+    h3{
+        font-size: 25px;
+    }
+    button{
+        border: none;
+        background-color: red;
+        width: 100px;
+        height: 40px;
+        color: white;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 50px;
+   
+  }
+}
